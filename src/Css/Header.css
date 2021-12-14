@@ -1,0 +1,67 @@
+.header_container{
+    padding:3em 3em 0em; /* top,sides,bottom */
+    background-color: #FF7429;;
+}
+
+.header{
+    margin-right: 100px;
+}
+
+.header_title{
+    display: flex; 
+    position: relative;
+    font-size: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(43, 101, 226)
+}
+
+.head_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_img{
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;  
+    height: 25em;
+    padding: 1em;
+    border-radius: 50%;
+}
+.header{
+    border-bottom: 1px solid #FBFF29;
+    width: 100%;
+}
+
+.head_info{
+    display: flex;
+    justify-content: center;
+    color:rgb(43, 101, 226);
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0.1em 0 0.5em ;
+    padding-right: 0.8em;
+}
+
+.fa-phone-alt{
+  color: rgb(43, 101, 226);
+  padding: 0.5em;
+  font-size: 1.6em;
+}
+
+.fa-envelope{
+    color: rgb(43, 101, 226);
+    padding: 0.5em;
+    font-size: 1.6em;
+}
+
+.centered{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}

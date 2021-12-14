@@ -1,0 +1,27 @@
+*{
+    color: #fff;
+    text-align: center;
+    
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 101, 226);
+    font-size: 1.6rem;
+    padding: 0.6em 0em 0.4em;
+}
+
+.footer_container{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0px;
+    background-color: #FF7429;
+}
+
+.footer_icon{
+    color: rgb(43, 101, 226);
+    font-size: 3em;
+    padding: 0.5em 0.2em 0;
+}
