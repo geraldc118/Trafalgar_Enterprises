@@ -5,7 +5,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
-import Services from './Services.js';
+import Containers from './Containers.js';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <Navbar />
     <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/services" element={<Services/>} />
+        <Route path="/containers" element={<Containers/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
     </Routes>

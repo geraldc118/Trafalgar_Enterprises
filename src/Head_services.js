@@ -1,13 +1,13 @@
 import React from 'react';
-import './Css/Services.css'
+import './Css/Head_services.css'
 import Ten_foot_container from './Images/10_foot_container.jpeg'
 import Twenty_foot_container from './Images/20 foot container.jpeg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 export default function Services(){
-    return <section id="#services" className="services">
-    <h1 className="title">Services</h1>
+    return <section id="#head_services" className="head_services">
+    <h1 className="head_title">Services</h1>
     <div className="services_container">
       <div className="card_info_container" >
       <Card>

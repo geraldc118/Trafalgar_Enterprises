@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './Header';
-import Services from './Services';
+import HEAD_SERVICES from './Head_services';
 
 export default function Home(){
     return( <section>
     <Header />
-    <Services />
+    <HEAD_SERVICES />
     </section>
    
     )

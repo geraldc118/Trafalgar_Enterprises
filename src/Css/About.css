@@ -1,4 +1,27 @@
 .about_container{
     display: flex;
     justify-content: center;
+    color: black;
+}
+
+.about_title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+}
+
+p{
+    color: black;
+}
+
+.about_container{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 1em;
+}
+
+.about_content{
+    font-size: 1.6em;
 }

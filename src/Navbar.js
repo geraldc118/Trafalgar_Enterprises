@@ -15,10 +15,10 @@ export default function Navbar(){
             <NavLink to="/" exact className="nav-logo">Trafalgar Enterprises.</NavLink>
             <ul className="nav-menu">
                 <li className="nav-item">
-                    <NavLink to="/about" class="nav-link">About</NavLink>
+                    <NavLink to="/containers" class="nav-link">Containers</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/services" class="nav-link">Services</NavLink>
+                    <NavLink to="/about" class="nav-link">About</NavLink>
                 </li>
               
                 <li className="nav-item">
@@ -32,10 +32,10 @@ export default function Navbar(){
               <div id="navbarBasicExample" className={`nav-menu ${isClicked ? 'nav-menu active' : ''}`}>
                   <ul className="navbar_start">
                   <li>
-                      <Link onClick={() => isClicked(!isClicked)} to="/about" className="nav-link">About</Link>
+                      <Link onClick={() => isClicked(!isClicked)} to="/containers" className="nav-link">Containers</Link>
                     </li>
                     <li>
-                      <Link onClick={() => isClicked(!isClicked)} to="/services" className="nav-link">Services</Link>
+                      <Link onClick={() => isClicked(!isClicked)} to="/about" className="nav-link">About</Link>
                     </li>
                     <li>
                       <Link onClick={() => isClicked(!isClicked)} to="/contact" className="nav-link">Contact</Link>
