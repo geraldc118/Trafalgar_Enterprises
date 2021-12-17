@@ -14,7 +14,7 @@ function Header() {
           <h1 className="header_title">Trafalgar Enterprises</h1>
           <div className="centered">
           <i className="fas fa-phone-alt"></i><a className=" head_info" href="tel:02086621479">Tel:02086621479</a>
-          <i className="fas fa-envelope"></i><a className=" head_info" href="tel:02086621479">Email:Trafalgarenterprises@gmail.com</a>
+          <i className="fas fa-envelope"></i><a className=" head_info" href="mailto:@gmail.com">Email:Trafalgarenterprises@gmail.com</a>
           </div>
         </div>
       </main>

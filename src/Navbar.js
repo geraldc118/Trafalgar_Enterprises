@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import './Css/Navbar.css'
 import nav_logo from './Images/Trafalgar Enterprises logo.JPG'
 
@@ -11,17 +12,17 @@ export default function Navbar(){
     <header className="header">
         <nav className="navbar">
             <img className="nav_logo_img" src={nav_logo} alt="nav_logo" width="50" height="50"/>
-            <a href="/" class="nav-logo">Trafalgar Enterprises.</a>
+            <NavLink to="/" exact className="nav-logo">Trafalgar Enterprises.</NavLink>
             <ul className="nav-menu">
                 <li className="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <NavLink to="/about" class="nav-link">About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a href="#services" class="nav-link">Services</a>
+                    <NavLink to="/services" class="nav-link">Services</NavLink>
                 </li>
               
                 <li className="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <NavLink to="/contact" class="nav-link">Contact</NavLink>
                 </li>
             </ul>
 
@@ -31,13 +32,13 @@ export default function Navbar(){
               <div id="navbarBasicExample" className={`nav-menu ${isClicked ? 'nav-menu active' : ''}`}>
                   <ul className="navbar_start">
                   <li>
-                      <a onClick={() => isClicked(!isClicked)} href="#about" className="nav-link">About</a>
+                      <Link onClick={() => isClicked(!isClicked)} to="/about" className="nav-link">About</Link>
                     </li>
                     <li>
-                      <a onClick={() => isClicked(!isClicked)} href="#about" className="nav-link">Services</a>
+                      <Link onClick={() => isClicked(!isClicked)} to="/services" className="nav-link">Services</Link>
                     </li>
                     <li>
-                      <a onClick={() => isClicked(!isClicked)} href="#about" className="nav-link">Contact</a>
+                      <Link onClick={() => isClicked(!isClicked)} to="/contact" className="nav-link">Contact</Link>
                   </li>
                   </ul>
               </div>
