@@ -1,0 +1,74 @@
+*{
+    color: black;
+
+}
+
+.title{
+    font-size: 2.2em;
+    color: black;
+}
+
+.eightFoot_ship_title{
+    font-size: 1.6em;
+    color: black;
+}
+
+
+.container{
+    padding: 1em;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.eightFoot_ship_container{
+    display: inline-block;
+    justify-content: center;
+}
+
+.table_info{
+    font-size: 1.4em;
+}
+
+.table_row_title{
+    font-size: 2em;
+}
+
+.other_containers{
+    padding: 1em;
+    border-top: 3px solid #FBFF29;
+}
+
+.flatpack_container{
+    width:25%;
+}
+.container_list{
+    width: 100%;
+    padding-top:2em;
+    margin-left: -5px;
+}
+
+.fa-box-open{
+    font-size: 2em;
+    color: rgb(43, 101, 226);
+}
+
+.fa-hammer{
+    font-size: 2em;
+    color: rgb(43, 101, 226);
+}
+
+.fa-shapes{
+    font-size: 2em;
+    color: rgb(43, 101, 226);
+}
+
+.newbuild_container{
+    display: inline-block;
+    width:25%;
+    flex-grow: 1;
+}
+
+.modified_container{
+    float:right
+}

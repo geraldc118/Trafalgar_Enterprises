@@ -35,6 +35,7 @@ a {
 
 .nav_burger {
     display: none;
+    color: black;
 }
 
 /* .bar {
@@ -125,6 +126,7 @@ a {
         height: 3px;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        color: #fff;
     }
 
     .nav_logo_img{
@@ -132,6 +134,7 @@ a {
         height: 100;
         border-radius:50%;
     }
+
 
 }
 

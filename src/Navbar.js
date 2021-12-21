@@ -15,14 +15,14 @@ export default function Navbar(){
             <NavLink to="/" exact className="nav-logo">Trafalgar Enterprises.</NavLink>
             <ul className="nav-menu">
                 <li className="nav-item">
-                    <NavLink to="/containers" class="nav-link">Containers</NavLink>
+                    <NavLink to="/containers" className="nav-link">Containers</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" class="nav-link">About</NavLink>
+                    <NavLink to="/about" className="nav-link">About</NavLink>
                 </li>
               
                 <li className="nav-item">
-                    <NavLink to="/contact" class="nav-link">Contact</NavLink>
+                    <NavLink to="/contact" className="nav-link">Contact</NavLink>
                 </li>
             </ul>
 
