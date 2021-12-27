@@ -6,6 +6,7 @@ import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
 import Containers from './Containers.js';
+import Enquiry from './Enquiry.js';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/containers" element={<Containers/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/enquiry" element={<Enquiry/>} />
     </Routes>
     <Footer />
     </Router>

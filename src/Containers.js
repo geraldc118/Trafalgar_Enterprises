@@ -73,11 +73,11 @@ export default function Containers(){
     <div className="other_containers">
         <div className="flatpack_container">
         <i class="fas fa-box-open"></i><h1>Flatpack Containers</h1>
-            <ul className="container_list flatpack_container">
+            <ul className="container_list">
+              <li>Chemical Storage</li>
               <li>Offices</li>
               <li>Garden Offices</li>
               <li>Flatpack Storage Containers</li>
-              <li>Chemical Storage</li>
             </ul>
         </div>
         <div className="newbuild_container">
@@ -93,11 +93,20 @@ export default function Containers(){
         <div className="modified_container">
         <i class="fas fa-shapes"></i><h1>Modified Containers</h1>
             <ul className="container_list">
-              <li>Garage Containers</li>
-              <li>Extra Wide Containers</li>
-              <li>Narrow Containers</li>
-              <li>Flatpack Storage Containers</li>
-              <li>Chemical Storage</li>
+              <li>Biomass Containers</li>
+              <li>Chemical Storage Containers</li>
+              <li>Cladded Containers</li>
+              <li>Classroom Containers</li>
+              <li>Container Conversions</li>
+              <li>Container Offices</li>
+              <li>Container Extras</li>
+              <li>Garden Containers</li>
+              <li>Linked Containers</li>
+              <li>Ply Lined Containers</li>
+              <li>Pop-Up Containers</li>
+              <li>Side Door Containers</li>
+              <li>Toilet Containers</li>
+              <li>Workshop Containers</li>
             </ul>
         </div>
 

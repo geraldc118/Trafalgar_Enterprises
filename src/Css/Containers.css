@@ -35,18 +35,24 @@
 }
 
 .other_containers{
+    display: grid;
     padding: 1em;
     border-top: 3px solid #FBFF29;
 }
 
 .flatpack_container{
-    width:25%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 2px solid grey;
 }
+
 .container_list{
     width: 100%;
     padding-top:2em;
-    margin-left: -5px;
+    display: block;
+    justify-content: center;
 }
+
 
 .fa-box-open{
     font-size: 2em;
@@ -65,10 +71,12 @@
 
 .newbuild_container{
     display: inline-block;
-    width:25%;
-    flex-grow: 1;
+    grid-column-start:3;
+    grid-column-end: 4;
+    border: 2px solid grey;
 }
 
 .modified_container{
-    float:right
+    grid-column-start: 2;
+    border: 2px solid grey;
 }
