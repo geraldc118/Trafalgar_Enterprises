@@ -1,9 +1,7 @@
 # Trafalgar Enterprises 
 
-# Brief
-This is a  showcasing selected projects i have work on for the purp[ose of gaining employment. 
-
-<!-- # Deployed Project Link -->
+# Deployed Project Link
+www.trafalgarenterprises.com
 
 # Overview & Concept
 The idea of this project is to showcase my abilities as a developer, with the purpose of gaining employment.
