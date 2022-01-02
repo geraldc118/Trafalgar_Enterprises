@@ -1,5 +1,14 @@
-.contact_conatiner{
+.contact_container{
     padding:1em;
     border: 1px;
     background-color: blanchedalmond;
+}
+
+
+.contact_title{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
 }

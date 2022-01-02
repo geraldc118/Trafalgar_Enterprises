@@ -40,7 +40,6 @@ export default function Enquiry_Form(){
             <option value="New And Used">New & Used Shipping Containers</option>
             <option value="Flatpack"> FlatPack Shipping Container</option>
             <option value="Modified"> Modified Shipping Containers</option>
-
             </select> 
         </label>
         </form>
