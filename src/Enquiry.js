@@ -3,12 +3,13 @@ import Form from 'react-bootstrap/Form'
 import "./Css/Enquiry.css"
 import Button from "react-bootstrap/Button"
 
+
 export default function Enquiry_Form(){
 
     const[name, setName] = useState("");
 
     return (<section>
-        <Form className="Enquiry">
+        <Form className="enquiry_form">
         <Form.Label> Enter Your Name:
         <input 
             type="text"
@@ -44,6 +45,7 @@ export default function Enquiry_Form(){
             <option value="Modified"> Modified Shipping Containers</option>
             </select> 
         </Form.Label>
+        <br></br>
         <Form.Label> Interior:
             <select>
             <option value="None">None</option>
@@ -52,12 +54,17 @@ export default function Enquiry_Form(){
             </select> 
         </Form.Label>
         <Form.Label> Exterior:
-            <select>
+            <select classname="">
             <option value="None">None</option>
             <option value="Render"> Render</option>
             <option value="Interior_Lining"> Interior Lining</option>
             </select> 
         </Form.Label>
+        <br></br>
+        <label controlId="floatingTextarea" label="Comme">
+            <Form.Control as="textarea" placeholder="Add more details..." className="add_details"/>
+
+        </label>
         <div className="btn_holder center">
             <Button className="form_button btn-lg" type="submit"> Submit </Button>
         </div>

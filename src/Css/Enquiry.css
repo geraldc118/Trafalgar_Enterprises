@@ -1,11 +1,15 @@
-.Enquiry{
+.enquiry_form{
    padding:2em 0em 1em;
-
 }
 
 label{
    padding:0.3em;
    font-size: 1.6em;
+}
+
+.add_details{
+   width: 400px;
+   height: 100px;
 }
 
 .form_button{

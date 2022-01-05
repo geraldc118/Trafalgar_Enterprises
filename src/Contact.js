@@ -6,8 +6,8 @@ export default function Contact(){
     return <section id="#Contact">
     <div className="contact_container">
     <div className="center">
-    <h1 className="contact_title">Enquire Now</h1>
-    <p>Office Address:</p>
+    <h1 className="contact_title">Contact Us</h1>
+    <p>Post Address:</p>
     <p>57 Grange House</p>
     <p>Erith</p>
     <p>Kent</p>
