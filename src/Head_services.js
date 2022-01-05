@@ -25,7 +25,7 @@ export default function Services(){
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Container Conversions</Card.Title>
               <Card.Text variant="primary" className="card_text">
-                Pop-up stores,Home gyms, Joining of containers we cater for all your needs.
+                Pop-up Stores,Home Gyms, Joining Of Containers We Cater For All Your Needs.
               </Card.Text>
           <Button variant="primary" className="btn-lg">Order Yours</Button>
           </Card.Body>

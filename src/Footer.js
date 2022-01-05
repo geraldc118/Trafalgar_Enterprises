@@ -11,6 +11,5 @@ export default function Footer(){
     <a href="https://www.twitter.com/trafalgar_ent/" target="_blank" rel="noreferrer"><i className="footer_icon fab fa-twitter"></i></a>
     <p className="footer_text">Copyright Trafalgar Enterprises {year}</p>
     </div>
-     
     </section>
 }
