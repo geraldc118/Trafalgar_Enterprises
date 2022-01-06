@@ -1,11 +1,16 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import "./Css/Containers.css"
 import Button from "react-bootstrap/Button"
 import Table from "react-bootstrap/Table"
 
+
 export default function Containers(){
     return(<section>
     <h1 className="title">Avaliable Containers</h1>
+    <Link to="/enquiry" className="btn btn-warning">
+    <Button variant="warning" className="enquiry_btn" onClick="/enquiry">Make An Enquiry</Button>
+    </Link>
     <div className="container">
   <Table>
   <tr>

@@ -53,6 +53,13 @@
     justify-content: center;
 }
 
+.enquiry_btn{
+    font-size: 1.5em;
+    height: 60px;
+    width: 200px;
+
+}
+
 
 .fa-box-open{
     font-size: 2em;
