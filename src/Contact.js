@@ -1,5 +1,6 @@
 import React from 'react';
 import './Css/Contact.css'
+import Enquiry from "./Enquiry"
 
 
 export default function Contact(){
@@ -14,8 +15,11 @@ export default function Contact(){
     <p>DA8 2DZ</p>
     <p>TEl: 07508460413</p>
     <p>Email: Trafalgar_Enterprises@gmail.com</p>
-    
     </div>
+    </div>
+    <div className="enquiry_container">
+    <h3>Enquire Today And We Will Contact You As Soon As Possible.</h3>
+    {<Enquiry/>}
     </div>
 
     </section>

@@ -2,10 +2,53 @@ section{
     color: black;
 }
 
+.eightFT_container{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+
+
+.container_title{
+    padding-top: 0.7em;
+    font-size: 3em;
+    
+}
+
+/* eightFT_img_container{
+    
+} */
+
+img_container{
+    padding: 1em;
+}
+
 .eightFt_img{
-    height: auto;
+    position: relative;
+    height: 240px;
+    width: 200px;
+    float: left;
 }
 
 .new_container{
-    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding:1em;
+    border: grey solid 2px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.used_container{
+    display: flex;
+    justify-content: flex-start;
+    padding:1em;
+    border: grey solid 2px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.eightFT_text_container{
+    position: relative;
 }

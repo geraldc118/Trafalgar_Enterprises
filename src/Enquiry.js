@@ -4,42 +4,66 @@ import "./Css/Enquiry.css"
 import Button from "react-bootstrap/Button"
 
 
+
 export default function Enquiry_Form(){
 
-    const[name, setName] = useState("");
+    const[state, setState]=useState({
+        fname:"",
+        lname:"",
+        email:"",
+        tel:"",
+
+    })
+
+    const handleSubmit = (e) => {
+        alert("Your form has been submitted. We will contact you as soon as possible. Thank you for using Trafalgar Enterprises")
+    }
+
+    const handleChange = e => {
+        setState({
+            ...state,
+            [e.target.name]: e.target.value,
+        })
+    }
 
     return (<section>
-        <Form className="enquiry_form">
+        <Form className="enquiry_form" onSubmit={handleSubmit} target="_blank">
         <Form.Label> Enter Your Name:
         <input 
             type="text"
-            value={name}
+            name="fname"
+            value={state.fname}
             placeholder="First"
-            onChange={(e) => setName(e.target.value)}
+            onChange={handleChange}
+            required
         />
         <input
             type="text"
-            value={name}
+            name="lname"
+            value={state.lname}
             placeholder="Second"
-            onChange={(e) => setName(e.target.value)}
+            onChange={handleChange}
+            required
         />
         </Form.Label>
         <br/>
         <Form.Label>Email:
             <input
                 type="email"
-                placeholder="Example123@provider.com"    
+                placeholder="Example123@provider.com"  
+                required  
             />
         </Form.Label>
         <br/>
         <Form.Label>Phone Number:
             <input
                 type="tel"
+                required
             />
         </Form.Label>
         <br/>
         <Form.Label> Container Enquiry:
-            <select>
+            <select required>
             <option value="New And Used">New & Used Shipping Containers</option>
             <option value="Flatpack"> FlatPack Shipping Container</option>
             <option value="Modified"> Modified Shipping Containers</option>

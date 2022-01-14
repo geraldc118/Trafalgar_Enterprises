@@ -7,7 +7,7 @@ import Table from "react-bootstrap/Table"
 
 export default function Containers(){
     return(<section>
-    <h1 className="title">Avaliable Containers</h1>
+    <h1 className="title">Available Containers</h1>
     <Link to="/enquiry" className="btn btn-warning">
     <Button variant="warning" className="enquiry_btn" onClick="/enquiry">Make An Enquiry</Button>
     </Link>
@@ -16,62 +16,83 @@ export default function Containers(){
   <tr>
     <th size="" className="table_row_title">Container Size</th>
     <th className="table_row_title">New</th>
-    <th className="table_row_title">Used</th>
+    {/* <th className="table_row_title">Used</th> */}
   </tr>
   <tr>
-    <td className="table_info"> 8ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 8FT Shipping Container</td>
+    <Link to="/8ft_container" className="btn">
+    <Button variant="outline-primary">View New & Used</Button> 
+    </Link>
   </tr>
   <tr>
-    <td className="table_info"> 10ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 10FT Shipping Container</td>
+    <Link to="/10ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 12ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 12FT Shipping Container</td>
+    <Link to="/12ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 15ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 15FT Shipping Container</td>
+    <Link to="/15ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 16ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 16FT Shipping Container</td>
+    <Link to="/16ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 20ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 20FT Shipping Container</td>
+    <Link to="/20ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 24ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 24FT Shipping Container</td>
+    <Link to="/24ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 25ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 25FT Shipping Container</td>
+    <Link to="/25ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 30ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 30FT Shipping Container</td>
+    <Link to="/30ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 40ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 40FT Shipping Container</td>
+    <Link to="/40ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
   <tr>
-    <td className="table_info"> 45ft Shipping Container</td>
-    <td><Button variant="outline-primary">View New</Button></td>
-    <td><Button variant="outline-primary">View Used</Button></td>
+    <td className="table_info"> 45FT Shipping Container</td>
+    <Link to="45ft_container" className="btn">
+    <td><Button variant="outline-primary">View New & Used</Button></td>
+    {/* <td><Button variant="outline-primary">View Used</Button></td> */}
+  </Link>
   </tr>
 </Table>
     </div>

@@ -1,7 +1,15 @@
 .contact_container{
     padding:1em;
-    border: 1px;
-    background-color: blanchedalmond;
+    border: 1px solid grey;
+    border-radius: 10%;
+    margin: 10%;
+}
+
+.enquiry_container{
+    padding:1em;
+    border: 1px solid grey;
+    border-radius: 10%;
+    margin: 1%;
 }
 
 

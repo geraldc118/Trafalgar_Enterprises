@@ -17,7 +17,7 @@ export default function Services(){
               <Card.Text variant="primary" className="card_text">
               New And Used Containers For Sale.
               </Card.Text>
-          <Button variant="primary">View</Button>
+          <Button variant="primary" className="btn-lg">View</Button>
           </Card.Body>
       </Card>
       <Card>
@@ -37,7 +37,7 @@ export default function Services(){
               <Card.Text variant="primary" className="card_text">
                 Bike Stores, Outside Furniture Store, Safe & Secure Storage.
               </Card.Text>
-          <Button variant="primary">Order Yours</Button>
+          <Button variant="primary" className="btn-lg">Order Yours</Button>
           </Card.Body>
       </Card>
       <Card>
@@ -47,7 +47,7 @@ export default function Services(){
               <Card.Text variant="primary" className="card_text">
                   Easy To Assemble Flat Pack Containers Available For All Uses.
               </Card.Text>
-          <Button variant="primary">Order Yours</Button>
+          <Button variant="primary" className="btn-lg">Order Yours</Button>
           </Card.Body>
       </Card>
       {/* <Card>

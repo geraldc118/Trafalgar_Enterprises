@@ -20,7 +20,9 @@ export default function Navbar(){
                 <li className="nav-item">
                     <NavLink to="/about" className="nav-link">About</NavLink>
                 </li>
-              
+                <li className="nav-item">
+                    <NavLink to="/enquiry" className="nav-link">Enquire</NavLink>
+                </li>
                 <li className="nav-item">
                     <NavLink to="/contact" className="nav-link">Contact</NavLink>
                 </li>
@@ -34,8 +36,11 @@ export default function Navbar(){
                   <li>
                       <Link onClick={() => isClicked(!isClicked)} to="/containers" className="nav-link">Containers</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link onClick={() => isClicked(!isClicked)} to="/about" className="nav-link">About</Link>
+                    </li> */}
+                    <li>
+                      <Link onClick={() => isClicked(!isClicked)} to="/enquiry" className="nav-link">Enquire</Link>
                     </li>
                     <li>
                       <Link onClick={() => isClicked(!isClicked)} to="/contact" className="nav-link">Contact</Link>

@@ -8,10 +8,13 @@ import Footer from './Footer';
 import Containers from './Containers.js';
 import Enquiry from './Enquiry.js';
 import EIGHT_FT_CONTAINER from './eightFT_Container.js';
+import TERMS_CONDITIONS from './Terms&Conditions.js';
+
 
 
 function App() {
-  return (<Router>
+
+  return (  <Router>
     <Navbar />
     <Routes>
         <Route path="/" element={<Home/>} />
@@ -19,6 +22,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/enquiry" element={<Enquiry/>} />
+        <Route path="/terms&Conditions" element={<TERMS_CONDITIONS/>} />
         <Route path="/8ft_container" element={<EIGHT_FT_CONTAINER/>} />
     </Routes>
     <Footer />
