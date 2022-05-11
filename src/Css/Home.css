@@ -3,13 +3,17 @@
     padding-top: 1em;
 }
 
-.welcome{
+.welcome_container{
     width: 75%;
     margin: auto;
     width: 75%;
     border: 3px solid #FFFF00;
     border-radius: 10px;
     padding-top: em;
+}
+
+.welcome_title{
+    font-size: 3em;
 }
 
 .home_section{
