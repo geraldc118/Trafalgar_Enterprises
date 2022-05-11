@@ -25,7 +25,16 @@ export default function EIGHT_FT_CONTAINER(){
                 <p>These 8 Foot containers will be available for purchase for the price of 22 naira</p> 
                 <p>This is next to nothing in this economy</p>   
                 </div>
+<<<<<<< HEAD
             </div>
             </section>
+=======
+
+            </div>
+
+
+            </section>
+
+>>>>>>> ef7349e8183f08453630514eca98a167f3d89965
             )
     }

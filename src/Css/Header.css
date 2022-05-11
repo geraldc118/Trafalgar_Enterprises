@@ -25,9 +25,12 @@
     margin-right: auto;
 }
 
+<<<<<<< HEAD
 .header_icon{
     font-size: 0.5em;
 }
+=======
+>>>>>>> ef7349e8183f08453630514eca98a167f3d89965
 .logo_img{
     /* text-align: center; */
     margin-left: auto;
@@ -53,6 +56,7 @@
 
 .fa-phone-alt{
   color: rgb(43, 101, 226);
+<<<<<<< HEAD
   padding: 0.3em;
   font-size: 2em;
 }
@@ -62,6 +66,16 @@
     color: rgb(43, 101, 226);
     padding: 0.3em;
     font-size: 2em;
+=======
+  padding: 0.5em;
+  font-size: 1.6em;
+}
+
+.fa-envelope{
+    color: rgb(43, 101, 226);
+    padding: 0.5em;
+    font-size: 1.6em;
+>>>>>>> ef7349e8183f08453630514eca98a167f3d89965
 }
 
 .centered{
