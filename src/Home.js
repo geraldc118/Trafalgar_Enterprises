@@ -15,6 +15,9 @@ export default function Home(){
             <p>Non converted containers are also available in different sizes,with price dependant on the age and size of the container.</p>
             <p>For more information on Trafalgar Enterprises can do for you, please send us an enquiry or give us a call.</p>
         </div>
+        <div>
+            
+        </div>
         </section>
     </main>
     {/* <HEAD_SERVICES /> */}
