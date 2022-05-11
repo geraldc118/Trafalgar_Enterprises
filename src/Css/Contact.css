@@ -1,0 +1,29 @@
+.contact_container{
+    padding:1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.enquiry_container{
+    padding:1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.contact_title{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+.open_hours{
+    padding: 1em;
+}
+
+.list_hours{
+    font-size: 2em;
+}

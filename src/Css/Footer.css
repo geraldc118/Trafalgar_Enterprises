@@ -1,0 +1,46 @@
+*{
+    color: #fff;
+    text-align: center;
+    
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 101, 226);
+    font-size: 1.6rem;
+    padding: 0em 0em 0 0.6em;
+    font-weight: 500;
+}
+
+.footer_container{  
+    position: flex;
+    /* margin-right: auto;
+    margin-left: auto; */
+    bottom: -10px;
+    background-color: #FF7429;
+}
+
+
+.footer_icon{
+    color: rgb(43, 101, 226);
+    font-size: 3em;
+    padding: 0.5em 0.2em 0;
+}
+
+.smallPrint_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.smallPrint_items{
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1.3em;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(43, 101, 226);
+}
