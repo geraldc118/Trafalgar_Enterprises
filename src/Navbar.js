@@ -15,12 +15,9 @@ export default function Navbar(){
             <NavLink to="/" exact className="nav-logo">Trafalgar Enterprises.</NavLink>
             <ul className="nav-menu">
                 <li className="nav-item">
-<<<<<<< HEAD
                     <NavLink to="/" className="nav-link">Home</NavLink>
                 </li>
                 <li className="nav-item">
-=======
->>>>>>> ef7349e8183f08453630514eca98a167f3d89965
                     <NavLink to="/containers" className="nav-link">Containers</NavLink>
                 </li>
                 <li className="nav-item">
@@ -40,12 +37,9 @@ export default function Navbar(){
               <div id="navbarBasicExample" className={`nav-menu ${isClicked ? 'nav-menu active' : ''}`}>
                   <ul className="navbar_start">
                   <li>
-<<<<<<< HEAD
                       <Link onClick={() => isClicked(!isClicked)} to="/" className="nav-link">Home</Link>
                     </li>
                     <li>
-=======
->>>>>>> ef7349e8183f08453630514eca98a167f3d89965
                       <Link onClick={() => isClicked(!isClicked)} to="/containers" className="nav-link">Containers</Link>
                     </li>
                     {/* <li>

@@ -27,10 +27,7 @@ export default function Enquiry_Form(){
     }
 
     return (<section>
-<<<<<<< HEAD
         <h1 classname="">Enquire Today For A Quick Repsonse </h1>
-=======
->>>>>>> ef7349e8183f08453630514eca98a167f3d89965
         <Form className="enquiry_form" onSubmit={handleSubmit} target="_blank">
         <Form.Label> Enter Your Name:
         <input 
@@ -89,14 +86,8 @@ export default function Enquiry_Form(){
             </select> 
         </Form.Label>
         <br></br>
-<<<<<<< HEAD
         <label controlId="floatingTextarea" label="Comments">
             <Form.Control as="textarea" placeholder="Add more details..." className="add_details"/>
-=======
-        <label controlId="floatingTextarea" label="Comme">
-            <Form.Control as="textarea" placeholder="Add more details..." className="add_details"/>
-
->>>>>>> ef7349e8183f08453630514eca98a167f3d89965
         </label>
         <div className="btn_holder center">
             <Button className="form_button btn-lg" type="submit"> Submit </Button>

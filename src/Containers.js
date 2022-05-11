@@ -96,11 +96,7 @@ export default function Containers(){
   </tr>
 </Table>
     </div>
-<<<<<<< HEAD
     {/* <div className="other_containers">
-=======
-    <div className="other_containers">
->>>>>>> ef7349e8183f08453630514eca98a167f3d89965
         <div className="flatpack_container">
         <i class="fas fa-box-open"></i><h1>Flatpack Containers</h1>
             <ul className="container_list">
@@ -141,11 +137,7 @@ export default function Containers(){
         </div>
 
 
-<<<<<<< HEAD
     </div> */}
-=======
-    </div>
->>>>>>> ef7349e8183f08453630514eca98a167f3d89965
 
     </section>
     )
