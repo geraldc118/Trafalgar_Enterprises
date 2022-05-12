@@ -8,22 +8,11 @@
     color: black;
 }
 
-.eightFoot_ship_title{
-    font-size: 1.6em;
-    color: black;
-}
-
-
 .container{
-    padding: 1em;
+    /* padding: 1em; */
     color: black;
     display: flex;
-    justify-content: center;
-}
-
-.eightFoot_ship_container{
-    display: inline-block;
-    justify-content: center;
+    text-align:center
 }
 
 .table_info{
@@ -34,17 +23,6 @@
     font-size: 2em;
 }
 
-.other_containers{
-    display: grid;
-    padding: 1em;
-    border-top: 3px solid grey;
-}
-
-.flatpack_container{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border: 2px solid grey;
-}
 
 .container_list{
     width: 100%;
@@ -60,29 +38,22 @@
 
 }
 
-.fa-box-open{
-    font-size: 2em;
-    color: rgb(43, 101, 226);
+.services_container{
+    display: block;
+    justify-content: center;
+    padding: 1em;
+
 }
 
-.fa-hammer{
-    font-size: 2em;
-    color: rgb(43, 101, 226);
+.service_image{
+        height: 25em;
+        width: 60em;
 }
 
-.fa-shapes{
-    font-size: 2em;
-    color: rgb(43, 101, 226);
-}
-
-.newbuild_container{
+/* .newbuild_container{
     display: inline-block;
     grid-column-start:3;
     grid-column-end: 4;
     border: 2px solid grey;
-}
+} */
 
-.modified_container{
-    grid-column-start: 2;
-    border: 2px solid grey;
-}

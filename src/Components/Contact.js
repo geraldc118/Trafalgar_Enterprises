@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Css/Contact.css'
-// import Enquiry from "./Enquiry"
 
 
 export default function Contact(){
