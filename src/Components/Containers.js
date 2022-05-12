@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import "./Css/Containers.css"
+import "../Css/Containers.css"
 import Button from "react-bootstrap/Button"
 import Table from "react-bootstrap/Table"
 

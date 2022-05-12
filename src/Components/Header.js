@@ -1,6 +1,6 @@
 import React from 'react';
-import './Css/Header.css';
-import logo_img from './Images/Trafalgar Enterprises logo.JPG';
+import '../Css/Header.css';
+import logo_img from '../Images/Trafalgar Enterprises logo.JPG';
 
 
 function Header() {

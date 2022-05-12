@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import './Css/Navbar.css'
-import nav_logo from './Images/Trafalgar Enterprises logo.JPG'
+import '../Css/Navbar.css'
+import nav_logo from '../Images/Trafalgar Enterprises logo.JPG'
 
 
 export default function Navbar(){

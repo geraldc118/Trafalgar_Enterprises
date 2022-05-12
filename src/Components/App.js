@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Navbar from './Navbar.js';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Footer from './Footer';
-import Containers from './Containers.js';
-import Enquiry from './Enquiry.js';
-import EIGHT_FT_CONTAINER from './eightFT_Container.js';
-import TERMS_CONDITIONS from './Terms&Conditions.js';
+import Navbar from '../Components/Navbar.js';
+import Home from '../Components/Home';
+import About from '../Components/About';
+import Contact from '../Components/Contact';
+import Footer from '../Components/Footer';
+import Containers from '../Components/Containers.js';
+import Enquiry from '../Components/Enquiry.js';
+import EIGHT_FT_CONTAINER from '../Components/eightFT_Container.js';
+import TERMS_CONDITIONS from '../Components/Terms&Conditions.js';
 
 
 

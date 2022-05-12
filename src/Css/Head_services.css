@@ -20,14 +20,13 @@
     display: inline;
     grid-row-gap:50px;
     grid-column-gap:50px;
-    padding: 1em 1em 1em;
+    /* padding: 1em 1em 1em; */
     color: black;
     /* border: 2px solid #FBFF29; */
 }
 
 .head_title{
-    color: rgb(43, 101, 226);
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 600;
     padding: 1em;
 }
@@ -42,6 +41,10 @@
 .head_services{
     border-bottom: 1px solid #E2E8F0;
     width: 100%;
+}
+
+.card{
+    padding: 1.9em;
 }
 
 .card_title{

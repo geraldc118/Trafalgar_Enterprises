@@ -1,6 +1,5 @@
 {
   "name": "trafalgar",
-  "homepage": "https://geraldc118.github.io/Trafalgar_Enterprises/",
   "version": "0.1.0",
   "private": true,
   "main": "node index.js",

@@ -1,7 +1,7 @@
 import React from 'react';
-import './Css/Head_services.css'
-import Ten_foot_container from './Images/10_foot_container.jpeg'
-import Twenty_foot_container from './Images/20 foot container.jpeg'
+import '../Css/Head_services.css'
+import Ten_foot_container from '../Images/10_foot_container.jpeg'
+import Twenty_foot_container from '../Images/20 foot container.jpeg'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
@@ -10,27 +10,27 @@ export default function Services(){
     <h1 className="head_title">Services</h1>
     <div className="services_container">
       <div className="card_info_container" >
-      <Card>
+      <Card className='card'>
           <Card.Img className="logo_img_services" src={Ten_foot_container} alt="Trafalgar Logo"/> 
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Shipping Containers</Card.Title>
               <Card.Text variant="primary" className="card_text">
-              New And Used Containers For Sale.
+              New & Used 10FT - 40FT Containers Available. Also including Shipping Container Conversions. Trafalgar Enterprises will fulfil your requirements.
               </Card.Text>
-          <Button variant="primary" className="btn-lg">View</Button>
+          <Button variant="primary" className="btn-lg">View container sizes</Button>
           </Card.Body>
       </Card>
-      <Card>
+       <Card>
           <Card.Img className="logo_img_services" src={Twenty_foot_container} alt="Trafalgar Logo"/> 
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Container Conversions</Card.Title>
               <Card.Text variant="primary" className="card_text">
-                Pop-up Stores,Home Gyms, Joining Of Containers We Cater For All Your Needs.
+              Canteens, Swimming Pools, Gyms, Stalls, Homes, Refrigerators, Locker Rooms, First Aid Units Toilets, Kitchens, Toilets, Bike Stores, Outside Furniture Store, Safe & Secure Storage. Anything that can be made from shipping container conversions. Trafalgar Enterprises is your one stop shop.
               </Card.Text>
-          <Button variant="primary" className="btn-lg">Order Yours</Button>
+          <Button variant="primary" className="btn-lg">View container sizes</Button>
           </Card.Body>
-      </Card>
-      <Card>
+      </Card> 
+      {/* <Card>
           <Card.Img className="logo_img_services" src={Twenty_foot_container} alt="Trafalgar Logo"/> 
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Garden Containers</Card.Title>
@@ -49,7 +49,7 @@ export default function Services(){
               </Card.Text>
           <Button variant="primary" className="btn-lg">Order Yours</Button>
           </Card.Body>
-      </Card>
+      </Card>  */}
       {/* <Card>
           <Card.Img className="logo_img_services" src={Twenty_foot_container} alt="Trafalgar Logo"/> 
           <Card.Body>

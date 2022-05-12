@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
-import "./Css/Home.css"
-// import HEAD_SERVICES from './Head_services';
+import "../Css/Home.css"
+import HEAD_SERVICES from './Head_services';
 
 
 export default function Home(){
@@ -19,8 +19,12 @@ export default function Home(){
             
         </div>
         </section>
+        <section id="head_services">
+        <HEAD_SERVICES />
+        </section>
+    
     </main>
-    {/* <HEAD_SERVICES /> */}
+    
     </section>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import "./Css/eightFT_container.css";
-import eightFT_Container_img from "./Images/10_foot_container.jpeg"
+import "../Css/eightFT_container.css";
+import eightFT_Container_img from "../Images/10_foot_container.jpeg"
 
 export default function EIGHT_FT_CONTAINER(){
         return (<section>
