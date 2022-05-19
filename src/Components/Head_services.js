@@ -7,10 +7,10 @@ import Button from 'react-bootstrap/Button'
 
 export default function Services(){
     return <section id="#head_services" className="head_services">
-    <h1 className="head_title">Services</h1>
     <div className="services_container">
       <div className="card_info_container" >
       <Card className='card'>
+      <h1 className="head_title">Services</h1>
           <Card.Img className="logo_img_services" src={Ten_foot_container} alt="Trafalgar Logo"/> 
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Shipping Containers</Card.Title>

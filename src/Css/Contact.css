@@ -1,8 +1,14 @@
+.main_container{
+    background-image:url("../Images/contact_img.jpeg") ;
+}
+
 .contact_container{
     padding:1em;
     border: 1px solid grey;
     border-radius: 10px;
-    margin: 10%;
+    margin: 8%;
+    background-color: aliceblue;
+    margin-top: -15px;
 }
 
 .enquiry_container{
@@ -14,6 +20,7 @@
 
 .contact_title{
     font-size: 3em;
+    padding: 0.5em;
 }
 
 p{
@@ -26,4 +33,9 @@ p{
 
 .list_hours{
     font-size: 2em;
+}
+
+.grey_text{
+    font-size: 1.5em;
+    color: grey;
 }

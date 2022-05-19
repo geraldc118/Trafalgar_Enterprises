@@ -8,7 +8,7 @@ export default function Footer(){
     <div className="footer_container">
    
     <a href="tel:02086621479"><i className="footer_icon fas fa-phone-alt"></i></a>
-    <a href="mailto:Trafalgar_Enterprises@gmail.com@gmail.com"><i className="footer_icon fas fa-envelope"></i></a>
+    <a href="mailto:info@trafalgarenterprises.com"><i className="footer_icon fas fa-envelope"></i></a>
     <a href="https://www.instagram.com/trafalgarenterprises/" target="_blank" rel="noreferrer"><i className="footer_icon fab fa-instagram"></i></a>
     <a href="https://www.twitter.com/trafalgar_ent/" target="_blank" rel="noreferrer"><i className="footer_icon fab fa-twitter"></i></a>
     <div className="smallPrint_container">

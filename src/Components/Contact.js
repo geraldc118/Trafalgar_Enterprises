@@ -4,14 +4,15 @@ import '../Css/Contact.css'
 
 export default function Contact(){
     return <section id="#Contact">
+    <div className='main_container'>
     <h1 className="contact_title">Contact Us</h1>
     <div className="contact_container">
     <div className="center">
-    <p>Better yet, see us in person.</p>
-    <p>We love our customers, so feel free to call or email during normal business hours.</p>
+    <h2>Better yet, see us in person.</h2>
+    <p className='grey_text'>We love our customers, so feel free to call or email during normal business hours.</p>
     <h2>Trafalgar Enterprises</h2>
     <div className='open_hours'>
-    <h3>Open Hours</h3>
+    <h2>Open Hours</h2>
     <ul>
         <li className='list_hours'>Mon 09:00-17:00</li>
         <li className='list_hours'>Tue 09:00-17:00</li>
@@ -23,11 +24,12 @@ export default function Contact(){
     </ul>
 
     </div>
-    <p>TEl: 07508460413</p>
-    <p>Email: info@trafalgarenterprises.com</p>
+    <p>TEl: <a href='tel:07508460413'>07508460413</a></p>
+    <p>Email: <a href='mailto:info@trafalgarenterprises.com'>info@trafalgarenterprises.com</a></p>
     <p></p>
     </div>
 
+    </div>
     </div>
 
     {/* <h2 className='contact_title'>Enquire</h2>
