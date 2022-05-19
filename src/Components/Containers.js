@@ -4,11 +4,12 @@ import "../Css/Containers.css"
 import Button from "react-bootstrap/Button"
 import shipping_image from "../Images/10_foot_container.jpeg"
 import modified_image from "../Images/20 foot container.jpeg"
-
+import NavBar from "../Components/Navbar"
 
 
 export default function Containers(){
     return(<section>
+    <NavBar/>
     <h1 className="title">Available Containers</h1>
     <Link to="/enquiry" className="btn btn-warning">
       <Button variant="warning" className="enquiry_btn" onClick="/enquiry">Make An Enquiry</Button>

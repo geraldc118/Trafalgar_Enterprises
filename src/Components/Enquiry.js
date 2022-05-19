@@ -2,10 +2,11 @@ import React, { useState} from 'react'
 import Form from 'react-bootstrap/Form'
 import "../Css/Enquiry.css"
 import Button from "react-bootstrap/Button"
-
+import NavBar from "../Components/Navbar"
 
 
 export default function Enquiry_Form(){
+    <NavBar/>
 
     const[state, setState]=useState({
         fname:"",

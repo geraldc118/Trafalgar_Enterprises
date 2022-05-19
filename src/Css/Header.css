@@ -1,10 +1,17 @@
 .header_container{
+    background-image: url("../Images/head_kitchen_image.jpeg");
     padding:3em 3em 0em; /* top,sides,bottom */
-    background-color: #FF7429;;
+    /* background-color: #FF7429;; */
 }
 
 .header{
     margin-right: 100px;
+}
+
+.head_text{
+    font-size:2em;
+    font-weight: 700;
+    color: white;
 }
 
 .header_title{
@@ -27,6 +34,16 @@
 
 .header_icon{
     font-size: 0.5em;
+}
+
+.btn_container{
+    font-size:2em;
+    padding-bottom: 0.5em;
+}
+
+.head_button{
+    font-size: 0.8em;
+    padding: 0.5em;
 }
 .logo_img{
     /* text-align: center; */

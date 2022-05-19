@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Navbar from './Navbar.js';
+// import Navbar from './Navbar.js';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -14,7 +14,7 @@ import TERMS_CONDITIONS from './Terms&Conditions.js';
 function App() {
 
   return (  <Router>
-    <Navbar />
+    {/* <Navbar /> */}
     <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/containers" element={<Containers/>} />

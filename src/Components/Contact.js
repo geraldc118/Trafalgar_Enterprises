@@ -1,10 +1,11 @@
 import React from 'react';
 import '../Css/Contact.css'
-
+import NavBar from "../Components/Navbar"
 
 export default function Contact(){
     return <section id="#Contact">
     <div className='main_container'>
+    <NavBar/>
     <h1 className="contact_title">Contact Us</h1>
     <div className="contact_container">
     <div className="center">
@@ -24,7 +25,7 @@ export default function Contact(){
     </ul>
 
     </div>
-    <p>TEl: <a href='tel:07508460413'>07508460413</a></p>
+    <p>Tel: <a href='tel:07508460413'>07508460413</a></p>
     <p>Email: <a href='mailto:info@trafalgarenterprises.com'>info@trafalgarenterprises.com</a></p>
     <p></p>
     </div>

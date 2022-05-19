@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
- 
 * {
     margin: 0;
     padding: 0;
@@ -28,13 +27,13 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    background-color: #FF7429;
+    background-color: none;
     width: 100%;
 }
 
 .nav_burger {
     display: none;
-    color: black;
+    color: grey
 }
 
 /* .bar {
@@ -125,7 +124,7 @@ a {
         height: 3px;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        color: #fff;
+        color: grey
     }
 
     .nav_logo_img{
