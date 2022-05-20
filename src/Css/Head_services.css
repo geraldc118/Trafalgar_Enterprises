@@ -1,7 +1,3 @@
-/* #head_services{
-    
-} */
-
 .services_container{
     display: flex;
     margin-left: auto;
@@ -11,8 +7,6 @@
     align-items: center;
     width: 75%;
     padding: 1em;
-   
-    
 }
 
 .card_info_container{
@@ -20,9 +14,7 @@
     display: inline;
     grid-row-gap:50px;
     grid-column-gap:50px;
-    /* padding: 1em 1em 1em; */
     color: black;
-    /* border: 2px solid #FBFF29; */
 }
 
 .head_title{
@@ -35,7 +27,7 @@
 .logo_img_services{
         margin-left: auto;
         margin-right: auto;  
-        height: 25em;
+        /* height: 25em; */
         padding: 1em;
     }
 

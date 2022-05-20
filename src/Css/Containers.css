@@ -1,15 +1,9 @@
-/* *{
-    color: black;
-
-} */
-
 .title{
     font-size: 2.2em;
     color: black;
 }
 
 .container{
-    /* padding: 1em; */
     color: black;
     display: flex;
     text-align:center
@@ -54,10 +48,6 @@
         width: 60em;
 }
 
-/* .newbuild_container{
-    display: inline-block;
-    grid-column-start:3;
-    grid-column-end: 4;
-    border: 2px solid grey;
-} */
-
+.img-fluid{
+    max-width: 60%;
+}

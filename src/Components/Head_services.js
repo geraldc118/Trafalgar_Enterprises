@@ -11,7 +11,7 @@ export default function Services(){
       <div className="card_info_container" >
       <Card id="#shipping_containers"className='card'>
       <h1 className="head_title">Services</h1>
-          <Card.Img className="logo_img_services" src={shipping_container} alt="Trafalgar Logo"/> 
+          <Card.Img className="img-fluid logo_img_services" src={shipping_container} alt="Trafalgar Logo"/> 
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Shipping Containers</Card.Title>
               <Card.Text variant="primary" className="card_text">
@@ -21,7 +21,7 @@ export default function Services(){
           </Card.Body>
       </Card>
        <Card id="#modified_containers">
-          <Card.Img className="logo_img_services" src={modified_container} alt="Trafalgar Logo"/> 
+          <Card.Img className="img-fluid logo_img_services" src={modified_container} alt="Trafalgar Logo"/> 
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Container Conversions</Card.Title>
               <Card.Text variant="primary" className="card_text">
