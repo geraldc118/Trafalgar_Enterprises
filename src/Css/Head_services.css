@@ -1,6 +1,6 @@
-#head_services{
+/* #head_services{
     
-}
+} */
 
 .services_container{
     display: flex;
@@ -66,5 +66,6 @@
 
 button{
     color: black;
-    font-size: 1.6em;
+    font-size: 4.6em;
 }
+

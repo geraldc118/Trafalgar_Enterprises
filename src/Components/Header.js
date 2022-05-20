@@ -2,7 +2,6 @@ import React from 'react';
 import '../Css/Header.css';
 import NavBar from "../Components/Navbar"
 // import logo_img from '../Images/Trafalgar Enterprises logo.JPG';
-import Button from "react-bootstrap/Button"
 
 
 function Header() {
@@ -19,7 +18,7 @@ function Header() {
             <p className='head_text'>A HOME FOR EVERYONE.... MAKING YOUR SHIPPING CONTAINER CONVERSIONS REALITY.</p>
             </div>
           <div className='btn_container'>
-            <Button className='btn head_button'>View Containers </Button>
+          <a href="/Containers" className="btn btn-primary btn-lg" role="button">View Containers</a>
           </div>
         
           <div className="centered">
