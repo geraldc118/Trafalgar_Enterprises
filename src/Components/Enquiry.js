@@ -6,7 +6,6 @@ import NavBar from "../Components/Navbar"
 
 
 export default function Enquiry_Form(){
-    <NavBar/>
 
     const[state, setState]=useState({
         fname:"",
@@ -28,6 +27,7 @@ export default function Enquiry_Form(){
     }
 
     return (<section>
+    <NavBar/>
         <h1 classname="">Enquire Today For A Quick Repsonse </h1>
         <Form className="enquiry_form" onSubmit={handleSubmit} target="_blank">
         <Form.Label> Enter Your Name:

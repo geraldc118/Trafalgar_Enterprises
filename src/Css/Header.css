@@ -84,11 +84,13 @@
 }
 
 .centered{
-    display: flex;
-    align-self: center;
     justify-content: center;
 }
 
 .btn-lg{
     font-size: 1.6rem;
+}
+
+.container-md{
+    display: flex;
 }

@@ -20,9 +20,9 @@ export default function Navbar(){
                 <li className="nav-item">
                     <NavLink to="/containers" className="nav-link">Containers</NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <NavLink to="/about" className="nav-link">About</NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <NavLink to="/enquiry" className="nav-link">Enquire</NavLink>
                 </li>
