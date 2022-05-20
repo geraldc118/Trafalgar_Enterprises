@@ -1,7 +1,6 @@
 .header_container{
     background-image: url("../Images/head_kitchen_image.jpeg");
     padding:3em 3em 0em; /* top,sides,bottom */
-    /* background-color: #FF7429;; */
 }
 
 .header{
@@ -48,7 +47,6 @@
     padding: 0.5em;
 }
 .logo_img{
-    /* text-align: center; */
     margin-left: auto;
     margin-right: auto;  
     height: 25em;
@@ -93,4 +91,46 @@
 
 .container-md{
     display: flex;
+    justify-content: center;
+}
+
+/* Mobiles */
+@media screen and (max-width:576px){
+    .container-sm{
+        display:block;
+        align-items: center;
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+
+    .header_container{
+        padding: 0;
+    }
+
+    .head_info{
+        display: block;
+        font-size: 1em;
+        font-weight: 500;
+    }
+}
+
+/* Ipads */
+@media screen and (max-width:1024px){
+    .container-sm{
+        display:block;
+        align-items: center;
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+
+    .header_container{
+        padding: 0;
+    }
+
+    .head_info{
+        display: block;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
 }
