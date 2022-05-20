@@ -1,5 +1,5 @@
-.head_services{
-    background-color: #FF7429;
+#head_services{
+    
 }
 
 .services_container{
@@ -11,7 +11,7 @@
     align-items: center;
     width: 75%;
     padding: 1em;
-    color:  #FF7429;
+   
     
 }
 
@@ -29,6 +29,7 @@
     font-size: 3em;
     font-weight: 600;
     padding: 1em;
+    color: black;
 }
 
 .logo_img_services{

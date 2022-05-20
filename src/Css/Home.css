@@ -8,15 +8,19 @@
     width: 75%;
     margin: auto;
     width: 75%;
-    border: 3px solid #FFFF00;
     border-radius: 10px;
-    padding-top: em;
+    padding-top:1em;
 }
 
 .welcome_title{
     font-size: 3em;
+    color: black;
 }
 
-.home_section{
-    background-color: #FF7429;
+/* .home_section{
+   
+} */
+
+.home_text{
+    color: black;
 }

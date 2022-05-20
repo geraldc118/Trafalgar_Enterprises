@@ -21,7 +21,6 @@ a {
     text-decoration: none;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -65,10 +64,10 @@ a {
     color: rgb(43, 101, 226)
 }
 
-.nav-logo {
+.nav-title {
     font-size: 2.1rem;
     font-weight: 500;
-    color: rgb(43, 101, 226);
+    color:rgb(43, 101, 226);
     
 }
 

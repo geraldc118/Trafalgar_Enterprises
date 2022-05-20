@@ -12,7 +12,7 @@ export default function Navbar(){
     <header className="header">
         <nav className="navbar">
             <img className="nav_logo_img" src={nav_logo} alt="nav_logo" width="50" height="50"/>
-            <NavLink to="/" exact className="nav-logo">Trafalgar Enterprises.</NavLink>
+            <NavLink to="/" exact className="nav-title">Trafalgar Enterprises.</NavLink>
             <ul className="nav-menu">
                 <li className="nav-item">
                     <NavLink to="/" className="nav-link">Home</NavLink>

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Css/Header.css';
 import NavBar from "../Components/Navbar"
-import logo_img from '../Images/Trafalgar Enterprises logo.JPG';
+// import logo_img from '../Images/Trafalgar Enterprises logo.JPG';
 import Button from "react-bootstrap/Button"
 
 
@@ -10,16 +10,16 @@ function Header() {
    <div className="header_container">
    <NavBar />
       <header>
-        <div>
+        {/* <div>
           <img className="logo_img" src={logo_img} alt="logo_img"/>
-        </div>
+        </div> */}
         <div className="head_info_container">
           <h1 className="header_title">Trafalgar Enterprises</h1>
           <div className='head_text'>
-            <p>A HOME FOR EVERYONE.... MAKING YOUR SHIPPING CONTAINER CONVERSIONS REALITY.</p>
+            <p className='head_text'>A HOME FOR EVERYONE.... MAKING YOUR SHIPPING CONTAINER CONVERSIONS REALITY.</p>
             </div>
           <div className='btn_container'>
-            <Button className='btn head_button' onClick="/Containers">View Containers </Button>
+            <Button className='btn head_button'>View Containers </Button>
           </div>
         
           <div className="centered">
