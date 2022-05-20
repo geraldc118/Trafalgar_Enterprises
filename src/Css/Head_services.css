@@ -60,3 +60,19 @@ button{
     font-size: 4.6em;
 }
 
+/* Ipads */
+@media screen and (max-width:1024px){
+    .card_text{
+        font-size: 2em;
+    }
+
+    .card_title{
+        font-size: 2.4em;
+    }
+
+    .container_btn{
+        font-size: 2em;
+    }
+
+    
+}

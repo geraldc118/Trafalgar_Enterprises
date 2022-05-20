@@ -25,9 +25,8 @@ export default function Contact(){
     </ul>
 
     </div>
-    <p>Tel: <a href='tel:07508460413'>07508460413</a></p>
-    <p>Email: <a href='mailto:info@trafalgarenterprises.com'>info@trafalgarenterprises.com</a></p>
-    <p></p>
+    <p className='contact_items'>Tel: <a href='tel:07508460413'>07508460413</a></p>
+    <p className='contact_items'>Email: <a href='mailto:info@trafalgarenterprises.com'>info@trafalgarenterprises.com</a></p>
     </div>
 
     </div>

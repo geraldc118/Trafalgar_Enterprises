@@ -17,10 +17,14 @@
     color: black;
 }
 
-/* .home_section{
-   
-} */
-
 .home_text{
     color: black;
+}
+
+/* Ipads */
+@media screen and (max-width:1024px){
+    .welcome_container{
+        font-size: 2em;
+    }
+    
 }

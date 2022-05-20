@@ -1,6 +1,12 @@
 .header_container{
     background-image: url("../Images/head_kitchen_image.jpeg");
     padding:3em 3em 0em; /* top,sides,bottom */
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    justify-content: center;
 }
 
 .header{
@@ -129,8 +135,12 @@
 
     .head_info{
         display: block;
-        font-size: 1em;
+        font-size: 2.3em;
         font-weight: 500;
+    }
+
+    .head_button{
+        font-size: 1em;
     }
 
 }

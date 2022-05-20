@@ -41,3 +41,15 @@
     font-weight: 500;
     color: rgb(43, 101, 226);
 }
+
+/* Ipads + Tablets */
+@media (max-width:1024px) {
+    .footer_text{
+        font-size: 2em;
+    }
+
+    .smallPrint_items{
+        font-size: 2em;
+    }
+    
+}
