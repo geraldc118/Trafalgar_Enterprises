@@ -33,35 +33,6 @@ export default function Services(){
               <a href="/Containers" className="btn btn-primary btn-lg" role="button">View container sizes</a>
           </Card.Body>
       </Card> 
-      {/* <Card>
-          <Card.Img className="logo_img_services" src={Twenty_foot_container} alt="Trafalgar Logo"/> 
-          <Card.Body>
-              <Card.Title variant="primary" className="card_title">Garden Containers</Card.Title>
-              <Card.Text variant="primary" className="card_text">
-                Bike Stores, Outside Furniture Store, Safe & Secure Storage.
-              </Card.Text>
-          <Button variant="primary" className="btn-lg">Order Yours</Button>
-          </Card.Body>
-      </Card>
-      <Card>
-          <Card.Img className="logo_img_services" src={Twenty_foot_container} alt="Trafalgar Logo"/> 
-          <Card.Body>
-              <Card.Title variant="primary" className="card_title">Flatpack Containers</Card.Title>
-              <Card.Text variant="primary" className="card_text">
-                  Easy To Assemble Flat Pack Containers Available For All Uses.
-              </Card.Text>
-          <Button variant="primary" className="btn-lg">Order Yours</Button>
-          </Card.Body>
-      </Card>  */}
-      {/* <Card>
-          <Card.Img className="logo_img_services" src={Twenty_foot_container} alt="Trafalgar Logo"/> 
-          <Card.Body>
-              <Card.Title variant="primary" className="card_title">Second Hand Containers</Card.Title>
-          <Button variant="primary">Order Yours</Button>
-          </Card.Body>
-      </Card> */}
-      
-      
       </div>
 
     </div>
