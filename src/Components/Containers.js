@@ -2,8 +2,8 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import "../Css/Containers.css"
 import Button from "react-bootstrap/Button"
-import shipping_image from "../Images/10_foot_container.jpeg"
-import modified_image from "../Images/20 foot container.jpeg"
+import shipping_image from "../Images/shipping_available.jpg"
+import modified_image from "../Images/modified_available.jpg"
 import NavBar from "../Components/Navbar"
 
 
