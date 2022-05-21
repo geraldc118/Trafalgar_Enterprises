@@ -12,7 +12,7 @@ export default function Services(){
       <Card id="#shipping_containers"className='card'>
       <h1 className="head_title">Services</h1>
           <Card.Img className="img-fluid logo_img_services" src={shipping_container} alt="Trafalgar Logo"/> 
-          <Card.Body>
+          <Card.Body className='col-2'>
               <Card.Title variant="primary" className="card_title">Shipping Containers</Card.Title>
               <Card.Text variant="primary" className="card_text">
               New & Used 10FT - 40FT Containers Available. Also including Shipping Container Conversions. Trafalgar Enterprises will fulfil your requirements.
@@ -22,7 +22,7 @@ export default function Services(){
       </Card>
        <Card id="#modified_containers">
           <Card.Img className="img-fluid logo_img_services" src={modified_container} alt="Trafalgar Logo"/> 
-          <Card.Body>
+          <Card.Body className='col-3'>
               <Card.Title variant="primary" className="card_title">Container Conversions</Card.Title>
               <Card.Text variant="primary" className="card_text">
               Canteens, Swimming Pools, Gyms, Stalls, Homes, Refrigerators, Locker Rooms, First Aid Units Toilets, Kitchens, Toilets, Bike Stores, Outside Furniture Store, Safe & Secure Storage. 

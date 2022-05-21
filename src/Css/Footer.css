@@ -45,11 +45,11 @@
 /* Ipads + Tablets */
 @media (max-width:1024px) {
     .footer_text{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .smallPrint_items{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     
 }

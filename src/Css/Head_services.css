@@ -60,6 +60,9 @@ button{
     font-size: 4.6em;
 }
 
+
+
+
 /* Ipads */
 @media screen and (max-width:1024px){
     .card_text{
@@ -71,8 +74,24 @@ button{
     }
 
     .container_btn{
-        font-size: 2em;
+        font-size: 1.6em;
+    }
+    
+}
+
+/* Mobiles */
+@media screen and (max-width:576px){
+    .container{
+        display:block;
+        align-items: center;
+        font-size: 0.5em;
     }
 
-    
+    .card{
+        width: fit-content;
+    }
+
+    .card-body{
+        width:100%;
+    }
 }

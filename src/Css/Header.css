@@ -144,3 +144,12 @@
     }
 
 }
+
+/* Mobiles */
+@media screen and (max-width:576px){
+    .container{
+        display:block;
+        align-items: center;
+        font-size: 0.5em;
+    }
+}
