@@ -7,7 +7,7 @@
     border: 1px solid grey;
     border-radius: 10px;
     margin: 8%;
-    background-color: aliceblue;
+    background-color: white;
     margin-top: -10px;
 }
 
@@ -23,8 +23,8 @@
     padding: 1.1em;
 }
 
-contact_items{
-    font-size: 2em;
+.contact_items{
+    font-size: 1.8em;
 }
 
 .open_hours{

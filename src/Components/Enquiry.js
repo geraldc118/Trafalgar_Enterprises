@@ -66,9 +66,8 @@ export default function Enquiry_Form(){
         <br/>
         <Form.Label> Container Enquiry:
             <select required>
-            <option value="New And Used">New & Used Shipping Containers</option>
-            <option value="Flatpack"> FlatPack Shipping Container</option>
-            <option value="Modified"> Modified Shipping Containers</option>
+            <option value="New And Used">New & Used Containers</option>
+            <option value="Modified"> Modified Containers</option>
             </select> 
         </Form.Label>
         <br></br>

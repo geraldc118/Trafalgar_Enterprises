@@ -4,8 +4,8 @@ import NavBar from "../Components/Navbar"
 
 export default function Contact(){
     return <section id="#Contact">
-    <div className='main_container'>
     <NavBar/>
+    <div className='main_container'>
     <h1 className="contact_title">Contact Us</h1>
     <div className="contact_container">
     <div className="center">
@@ -23,10 +23,9 @@ export default function Contact(){
         <li className='list_hours'>Sat 10:00-18:00</li>
         <li className='list_hours'>Sun Closed </li>
     </ul>
-
     </div>
-    <p className='contact_items'>Tel: <a href='tel:07508460413'>07508460413</a></p>
-    <p className='contact_items'>Email: <a href='mailto:info@trafalgarenterprises.com'>info@trafalgarenterprises.com</a></p>
+            <p className='contact_items'>Tel: <a href='tel:07508460413'>07508460413</a></p>
+            <p className='contact_items'>Email: <a href='mailto:info@trafalgarenterprises.com'>info@trafalgarenterprises.com</a></p>
     </div>
 
     </div>
