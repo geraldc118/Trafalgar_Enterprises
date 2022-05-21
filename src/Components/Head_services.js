@@ -25,7 +25,7 @@ export default function Services(){
           <Card.Body>
               <Card.Title variant="primary" className="card_title">Container Conversions</Card.Title>
               <Card.Text variant="primary" className="card_text">
-              Canteens, Swimming Pools, Gyms, Stalls, Homes, Refrigerators, Locker Rooms, First Aid Units Toilets, Kitchens, Toilets, Bike Stores, Outside Furniture Store, Safe & Secure Storage. 
+              Homes, Swimming Pools, Gyms, Refrigerators, Locker Rooms,Toilets, Kitchens, Bike Stores, Outside Furniture Store, Safe & Secure Storage. 
               </Card.Text>
               <Card.Text variant="primary" className="card_text">
               Anything that can be made from shipping container conversions. Trafalgar Enterprises is your one stop shop.
