@@ -62,7 +62,6 @@ button{
 
 
 
-
 /* Ipads */
 @media screen and (max-width:1024px){
     .card_text{
@@ -82,7 +81,7 @@ button{
 /* Mobiles */
 @media screen and (max-width:576px){
     .container{
-        display:block;
+        display:flex;
         align-items: center;
         font-size: 0.5em;
     }
@@ -91,7 +90,4 @@ button{
         width: fit-content;
     }
 
-    .card-body{
-        width:100%;
-    }
 }
