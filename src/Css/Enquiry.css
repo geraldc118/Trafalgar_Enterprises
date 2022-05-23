@@ -33,3 +33,23 @@ label{
    padding: 1em;
 }
 
+/* Ipads */
+@media screen and (max-width:1024px){
+   .add_details{
+      width: 500px;
+   }
+
+/* Mobiles */
+@media screen and (max-width:576px){
+ .add_details{
+    width: 240px;
+ }
+}
+/* Galaxy Fold */
+@media  screen and (max-width:280px) {
+   .add_details{
+      width: 180px;
+   }
+}
+
+}
