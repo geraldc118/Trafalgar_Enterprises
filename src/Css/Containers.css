@@ -37,6 +37,7 @@
     justify-content: center;
     padding: 1em;
     color: black;
+    background-color: aliceblue;
 }
 
 .service_text{
@@ -52,4 +53,14 @@
 
 .img-fluid{
     max-width: 60%;
+}
+
+.modified{
+    background-color: white;
+    padding: 1em;
+}
+
+.shipping{
+    padding: 1em;
+    background-color: white;
 }

@@ -1,5 +1,16 @@
+.enquiry_section{
+   background-color: aliceblue;
+}
+
+.enquiry_title{
+   padding: 1em 0em 0;
+   text-decoration-line: underline;
+   
+}
+
 .enquiry_form{
-   padding:2em 0em 1em;
+   padding:2em;
+   background-color: white;
 }
 
 label{
@@ -21,3 +32,4 @@ label{
    justify-content: center;
    padding: 1em;
 }
+

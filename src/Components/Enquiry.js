@@ -28,9 +28,13 @@ export default function Enquiry_Form(){
 
     return (<section>
     <NavBar/>
-        <h1 classname="">Enquire Today For A Quick Repsonse </h1>
+    <div className='enquiry_section' >
+    <h1 className="display-3 enquiry_title">Give Us A Call  Or Enquire With Us Here.</h1>
+    <div className='enquiry_container'>
+        
         <Form className="enquiry_form" onSubmit={handleSubmit} target="_blank">
-        <Form.Label> Enter Your Name:
+        <h2 className="">Enquire Today For A Quick Repsonse </h2>
+        <Form.Label>Name:
         <input 
             type="text"
             name="fname"
@@ -93,6 +97,8 @@ export default function Enquiry_Form(){
             <Button className="form_button btn-lg" type="submit"> Submit </Button>
         </div>
         </Form>
+    </div>
+    </div>
         </section>
     )
     
